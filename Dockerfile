@@ -18,8 +18,8 @@ RUN bundle install
 # Copy the application code into the container
 COPY . .
 
-# Expose port 3000 to the outside world
-EXPOSE 3000
+# Expose port 3002 to the outside world
+EXPOSE 3002
 
 # Start the application
 CMD ["rails", "server", "-b", "0.0.0.0"]
